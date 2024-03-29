@@ -1,6 +1,7 @@
-import unittest
-from my_re_functions import *
 import re
+import unittest
+
+from my_re_functions import *
 
 text = """
 [Event "WCh 2023"]
