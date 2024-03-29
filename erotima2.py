@@ -1,6 +1,8 @@
-from my_re_functions import *
 from datetime import datetime
+
 import matplotlib.pyplot as plt
+
+from my_re_functions import *
 
 days_names = [
     "Monday",
