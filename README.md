@@ -1,8 +1,9 @@
-# Chess Game Analyzer
+# Chess Game Analyzer 
+[Github/ChessProject](https://github.com/georgetzan/ChessProject)
 
 ## Εισαγωγή
 
-Αυτό το πρόγραμμα αναλύει παιχνίδια σκακιού από ένα αρχείο PGN και επεξεργάζεται τα δεδομένα για να παρουσιάσει πληροφορίες όπως ο νικητής, η διαφορά τους στα Elo ratings, η ημερομηνία και ο αριθμός των κινήσεων για κάθε παιχνίδι.
+Αυτό το πρόγραμμα αναλύει παιχνίδια σκακιού από ένα αρχείο PGN και επεξεργάζεται τα δεδομένα ώστε να παρουσιάσει πληροφορίες όπως τον νικητή, η διαφορά τους στα Elo ratings, η ημερομηνία και τον αριθμό των κινήσεων για κάθε παιχνίδι.
 
 ## Introduction
 
@@ -10,7 +11,7 @@ This program analyzes chess games from a PGN file and processes the data to pres
 
 ## Προεπισκόπηση
 
-Το πρόγραμμα αποτελείται από δύο βασικά αρχεία:
+Το πρόγραμμα αποτελείται από τέσσερα βασικά αρχεία:
 
 - `erotima1.py`: Κύριο αρχείο που εκτελεί την ανάλυση των παιχνιδιών.
 - `erotima2.py`: Δευτερέυον αρχείο το οποιο εκτελέι ανάλυση ημερομηνιών σε 54727 παρτίδες με γραφικά αποτελέσματα.
@@ -19,7 +20,7 @@ This program analyzes chess games from a PGN file and processes the data to pres
 
 ## Preview
 
-The program consists of two main files:
+The program consists of four main files:
 
 - `erotima1.py`: Main file that performs the game analysis.
 - `erotima2.py`: second file that performs date analysis on 54727 games and shows statistical graph.
