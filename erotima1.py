@@ -1,5 +1,4 @@
 from my_re_functions import *
-import time
 
 
 def main():
