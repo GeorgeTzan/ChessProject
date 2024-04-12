@@ -34,9 +34,9 @@ pip install -r requirements.txt
 ```
 
 ## Run - Εκτέλεση
-```bash
-python erotima1.py
-python erotima2.py
+```bash 
+python erotima1.py -i/--input WorldChamp2023.pgn
+python erotima2.py -i/--input RetiKIA.pgn
 python test_my_re_functions.py
 ```
 ## Άδεια Χρήσης
