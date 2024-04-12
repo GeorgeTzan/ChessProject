@@ -1,1 +1,2 @@
 matplotlib>=3.4.3
+aargparse>=1.4.0
