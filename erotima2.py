@@ -1,3 +1,4 @@
+import argparse
 from datetime import datetime
 
 import matplotlib.pyplot as plt
@@ -16,8 +17,7 @@ days_names = [
 days = [0, 0, 0, 0, 0, 0, 0]
 
 
-def main():
-    file_path = "RetiKIA.pgn"
+def main(file_path):
 
     with open(file_path, "r") as file:
         pgn_text = file.read().strip()
@@ -35,7 +35,14 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Process a PGN file.")
+    parser.add_argument(
+        "-i", "--input", type=str, help="The path to the PGN file", required=True
+    )
+
+    args = parser.parse_args()
+
+    main(args.input)
     print(days)
     fig, ax = plt.subplots()
     ax.bar(days_names, days)
