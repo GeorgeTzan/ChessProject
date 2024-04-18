@@ -25,7 +25,7 @@ def main(file_path):
     games = pgn_text.split("\n\n")
 
     for iter in range(len(games)):
-        if iter % 2 == 0 or iter == 0:
+        if iter % 2 == 0:
             date = get_date(games[iter])
             try:
                 date_obj = datetime.strptime(date, "%d-%m-%Y")
